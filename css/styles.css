@@ -1,0 +1,44 @@
+.root {
+    --main-navy-blue-color:#2E2F42;
+    --other-text-color: #434455;
+}
+
+.logo-web {
+    color: #4D5AE5
+}
+
+.logo-studio {
+ color: var(--main-navy-blue-color);
+}
+
+.main-nav {
+    color: var(--main-navy-blue-color);
+}
+
+.cotacts {
+    color: var(--other-text-color);
+}
+
+.hero-h1 {
+    color: #FFFFFF;
+}
+
+.principles-h2, .principles-h3, .services-h2, .team-h2, .team-h3 {
+    color: var(--main-navy-blue-color)
+}
+
+.principles-p, .team-p {
+    color: var(--other-text-color);
+}
+
+.footer-web {
+    color: #4D5AE5;
+}
+
+.footer-studio {
+    color: #F4F4FD;
+}
+
+.footer-p {
+    color: #E7E9FC;
+}
