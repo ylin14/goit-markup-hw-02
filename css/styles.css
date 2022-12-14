@@ -49,7 +49,7 @@
     border: transparent;
 }
 
-.button:hover {
+.button:hover, .button:focus {
     color:#FFFFFF;
     background: #4D5AE5;
     border: transparent;
