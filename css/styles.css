@@ -1,10 +1,11 @@
 .root {
     --main-navy-blue-color:#2E2F42;
     --other-text-color: #434455;
+    --purple-hover-focus: #4D5AE5;
 }
 
 .logo-web {
-    color: #4D5AE5
+    color: #4D5AE5;
 }
 
 .logo-studio {
@@ -17,6 +18,10 @@
 
 .cotacts {
     color: var(--other-text-color);
+}
+
+.contacts:hover, .contacts:focus {
+    color: #4D5AE5;
 }
 
 .hero-h1 {
