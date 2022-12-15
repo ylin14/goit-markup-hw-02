@@ -8,27 +8,67 @@
     --light: #F4F4FD;
 }
 
-body { 
-    font-family: Roboto, sans-serif;
-    font-weight: 400;
-}
-
-/* logo */
-
 .header-logo {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
 }
-
 .header-logo-web {
-    color: var(--primary-brand);
 }
-
 .header-logo-studio {
-    color: var(--dark);
+}
+.navigation-list {
+}
+.navigation-item {
+}
+.navigation-link {
+}
+.cotacts-list {
+}
+.cotacts-item {
+}
+.contacts-link {
+}
+.hero {
+}
+.hero-header {
+}
+.hero-button {
+}
+.principles {
+}
+.principles-header {
+}
+.principles-list {
+}
+.principles-item {
+}
+.principles-item-header {
+}
+.principles-item-paragraph {
+}
+.services {
+}
+.services-header {
+}
+.services-list {
+}
+.services-item {
+}
+.team-header {
+}
+.team-list {
+}
+.team-item {
+}
+.team-item-header {
+}
+.team-item-paragraph {
+}
+.footer-logo {
+}
+.footer-logo-web {
+}
+.footer-logo-studio {
+}
+.footer-paragraph {
 }
 
 
