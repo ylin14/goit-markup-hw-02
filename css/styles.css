@@ -1,62 +1,35 @@
-.root {
-    --main-navy-blue-color:#2E2F42;
-    --other-text-color: #434455;
-    --purple-hover-focus: #4D5AE5;
+:root {
+    --primary-brand: #4D5AE5;
+    --dark: #2E2F42;
+    --success: #31D0AA;
+    --text: #434455;
+    --subtle-text: #8E8F99;
+    --accent:#E7E9FC;
+    --light: #F4F4FD;
 }
 
-.logo-web {
-    color: #4D5AE5;
+body { 
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
 }
 
-.logo-studio {
- color: var(--main-navy-blue-color);
+/* logo */
+
+.header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
 }
 
-.main-nav {
-    color: var(--main-navy-blue-color);
+.header-logo-web {
+    color: var(--primary-brand);
 }
 
-.cotacts {
-    color: var(--other-text-color);
+.header-logo-studio {
+    color: var(--dark);
 }
 
-.contacts:hover, .contacts:focus {
-    color: #4D5AE5;
-}
 
-.hero-h1 {
-    color: #FFFFFF;
-}
 
-.principles-h2, .principles-h3, .services-h2, .team-h2, .team-h3, .services-h2 {
-    color: var(--main-navy-blue-color)
-}
-
-.principles-p, .team-p, .services-p {
-    color: var(--other-text-color);
-}
-
-.footer-web {
-    color: #4D5AE5;
-}
-
-.footer-studio {
-    color: #F4F4FD;
-}
-
-.footer-p {
-    color: #E7E9FC;
-}
-
-.button {
-    color: #4D5AE5;
-    background: #E7E9FC;
-    border: transparent;
-}
-
-.button:hover, .button:focus {
-    color:#FFFFFF;
-    background: #4D5AE5;
-    border: transparent;
-    cursor: pointer;
-}
