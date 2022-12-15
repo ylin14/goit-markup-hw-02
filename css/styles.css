@@ -162,5 +162,35 @@ body {
     color: var(--text);
 }
 
+.navigation-button {
+    color: var(--primary-brand);
+    background-color: var(--light);
+    border: none;
+}
 
+.navigation-button:hover, .navigation-button:focus {
+    color: #FFFFFF;
+    background-color: var(--primary-brand);
+}
 
+.portfolio-services {
+}
+.portf-serv-list {
+}
+.portf-serv-item {
+}
+.portf-serv-link {
+}
+.portf-serv-header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2em;
+    color:var(--dark)
+}
+.portf-serv-praragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+}
