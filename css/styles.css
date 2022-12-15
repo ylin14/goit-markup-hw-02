@@ -8,29 +8,79 @@
     --light: #F4F4FD;
 }
 
+body { 
+    font-family: Roboto, sans-serif;
+}
+
 .header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33em;
 }
-.header-logo-web {
+
+.header-logo-web, .footer-logo-web {
+    color: var(--primary-brand);
 }
+
 .header-logo-studio {
+    color:var(--dark);
 }
+
 .navigation-list {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5em;
 }
 .navigation-item {
+    
 }
 .navigation-link {
+    color:var(--dark);
+}
+
+.navigation-link:hover, .navigation-link:focus {
+    color: var(--primary-brand)
 }
 .cotacts-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
 }
 .cotacts-item {
 }
 .contacts-link {
+    color: var(--text);
+
+}
+
+.contacts-link:hover, .contacts-link:focus {
+    color: var(--primary-brand)
 }
 .hero {
 }
 .hero-header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07em;
+    color: #FFFFFF;
 }
 .hero-button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.18em;    
+    color: #FFFFFF;
+    background-color: var(--primary-brand);
+    border:none;
+}
+
+.hero-button:hover, .hero-button:focus {
+    background-color: #404BBF;
 }
 .principles {
 }
@@ -41,34 +91,75 @@
 .principles-item {
 }
 .principles-item-header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2em;
+    color: var(--dark);
 }
 .principles-item-paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2em;
+    color: var(--text);
 }
 .services {
 }
 .services-header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11em;
+    color:var(--dark);
+
 }
 .services-list {
 }
 .services-item {
 }
 .team-header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11em;
+    color:var(--dark);
 }
 .team-list {
 }
 .team-item {
 }
 .team-item-header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2em;
+    color: var(--dark);
 }
 .team-item-paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: var(--text);
 }
 .footer-logo {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16em;
 }
 .footer-logo-web {
 }
 .footer-logo-studio {
+    color: var(--light)
 }
 .footer-paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: var(--text);
 }
 
 
