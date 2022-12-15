@@ -10,6 +10,7 @@
 
 body { 
     font-family: Roboto, sans-serif;
+    color: var(--text);
     letter-spacing: 0.02em;
 }
 
@@ -58,7 +59,6 @@ ul {
 .cotacts-item {
 }
 .contacts-link {
-    color: var(--text);
 }
 
 .contacts-link:hover, .contacts-link:focus {
@@ -102,7 +102,6 @@ ul {
 .principles-item-paragraph {
     font-size: 16px;
     line-height: 1.2;
-    color: var(--text);
     
 }
 .services {
@@ -137,7 +136,6 @@ ul {
 .team-item-paragraph {
     font-size: 16px;
     line-height: 1.5;
-    color: var(--text);
 }
 .footer-logo {
     font-family: 'Raleway';
@@ -155,7 +153,6 @@ ul {
 .footer-paragraph {
     font-size: 16px;
     line-height: 1.5;
-    color: var(--text);
 }
 
 .navigation-button {
@@ -163,6 +160,10 @@ ul {
     background-color: var(--light);
     border: none;
     letter-spacing: 0.04em;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .navigation-button:hover, .navigation-button:focus {
@@ -187,5 +188,4 @@ ul {
 .portf-serv-praragraph {
     font-size: 16px;
     line-height: 1.5;
-    color :var(--text);
 }
