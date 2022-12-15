@@ -14,10 +14,10 @@ body {
     letter-spacing: 0.02em;
 }
 
-a {
+.link-underline-none {
     text-decoration: none;
 }
-ul {
+.list-point-none {
     list-style-type: none;
 }
 
