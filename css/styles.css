@@ -10,14 +10,22 @@
 
 body { 
     font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
 }
 
 .header-logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33em;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
 }
 
 .header-logo-web, .footer-logo-web {
@@ -29,10 +37,9 @@ body {
 }
 
 .navigation-list {
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
 }
 .navigation-item {
     
@@ -45,16 +52,13 @@ body {
     color: var(--primary-brand)
 }
 .cotacts-list {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
 }
 .cotacts-item {
 }
 .contacts-link {
     color: var(--text);
-
 }
 
 .contacts-link:hover, .contacts-link:focus {
@@ -63,20 +67,19 @@ body {
 .hero {
 }
 .hero-header {
-    font-style: normal;
     font-weight: 600;
     font-size: 56px;
-    line-height: 1.07em;
+    line-height: 1.07;
     color: #FFFFFF;
 }
 .hero-button {
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 1.18em;    
+    line-height: 1.18;    
     color: #FFFFFF;
     background-color: var(--primary-brand);
     border:none;
+    letter-spacing: 0.04em;
 }
 
 .hero-button:hover, .hero-button:focus {
@@ -91,26 +94,23 @@ body {
 .principles-item {
 }
 .principles-item-header {
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 1.2em;
+    line-height: 1.2;
     color: var(--dark);
 }
 .principles-item-paragraph {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.2em;
+    line-height: 1.2;
     color: var(--text);
+    
 }
 .services {
 }
 .services-header {
-    font-style: normal;
     font-weight: 600;
     font-size: 36px;
-    line-height: 1.11em;
+    line-height: 1.11;
     color:var(--dark);
 
 }
@@ -119,10 +119,9 @@ body {
 .services-item {
 }
 .team-header {
-    font-style: normal;
     font-weight: 600;
     font-size: 36px;
-    line-height: 1.11em;
+    line-height: 1.11;
     color:var(--dark);
 }
 .team-list {
@@ -130,24 +129,22 @@ body {
 .team-item {
 }
 .team-item-header {
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 1.2em;
+    line-height: 1.2;
     color: var(--dark);
 }
 .team-item-paragraph {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
     color: var(--text);
 }
 .footer-logo {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16em;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
 }
 .footer-logo-web {
 }
@@ -155,10 +152,8 @@ body {
     color: var(--light)
 }
 .footer-paragraph {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
     color: var(--text);
 }
 
@@ -166,6 +161,7 @@ body {
     color: var(--primary-brand);
     background-color: var(--light);
     border: none;
+    letter-spacing: 0.04em;
 }
 
 .navigation-button:hover, .navigation-button:focus {
@@ -182,15 +178,13 @@ body {
 .portf-serv-link {
 }
 .portf-serv-header {
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 1.2em;
+    line-height: 1.2;
     color:var(--dark)
 }
 .portf-serv-praragraph {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
+    color :var(--text);
 }
